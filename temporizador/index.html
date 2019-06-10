@@ -12,12 +12,17 @@
 
     </div>
     <script>
+        function disparaAlerta(){
+
+
+        
     var app = document
     .querySelector('#app');
-    texto = app.textContent
-setInterval(() => {
+
+    texto = app.textContent;
     alert(texto)
-}, 5000);
+        }
+setInterval(disparaAlerta, 4000);
     </script>
 </body>
 </html>
